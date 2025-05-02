@@ -109,8 +109,8 @@ const FeatureCard = ({ icon, title, description, link, delay }: FeatureCardProps
         <h3 className="text-xl font-semibold text-gray-900 mb-2">{title}</h3>
         <p className="text-gray-600">{description}</p>
         <div className="mt-4 text-blue-600 font-medium flex items-center">
-          Learn more
-          <ChevronRight className="ml-1 w-4 h-4" />
+          
+          {/* <ChevronRight className="ml-1 w-4 h-4" /> */}
         </div>
       </Link>
     </motion.div>

@@ -198,7 +198,7 @@ const Pill = ({ className = "" }) => (
     strokeWidth="2" 
     strokeLinecap="round" 
     strokeLinejoin="round"
-  >
+  />
     <path d="m12 2 8 8-8 8-8-8 8-8z" />
     <path d="m9 5 5 5" />
   </svg>

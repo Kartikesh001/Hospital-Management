@@ -12,13 +12,7 @@ const layout = ({children}:Readonly<{children:React.ReactNode}>) => {
     <div>
       <Navbar/>
       {children}
-      {/* <HeroSection/>
-      <ContentSection/>
-      <SliderSection/>
-      <Footer/> */}
-      {/* <BookingForm/> */}
-      
-
+  
     </div>
   )
 }
